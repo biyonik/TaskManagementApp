@@ -7,7 +7,7 @@ interface IProfile {
 }
 
 const Profile: FC<IProfile> = (props): ReactElement => {
-  const { name = '' } = props;
+  const { name} = props;
   return (
     <Box
       display='flex'
@@ -37,8 +37,12 @@ const Profile: FC<IProfile> = (props): ReactElement => {
   );
 };
 
+Profile.defaultProps = {
+  name: '',
+}
+
 Profile.propTypes = {
   name: PropTypes.string,
-};
+}
 
 export default Profile;

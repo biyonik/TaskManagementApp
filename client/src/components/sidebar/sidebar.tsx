@@ -1,6 +1,7 @@
 import { FC, ReactElement } from 'react';
 import { Grid } from '@mui/material';
 import Profile from '../profile/profile.tsx';
+import CreateTaskForm from '../create-task-form/create-task-form.tsx';
 
 const Sidebar: FC = (): ReactElement => {
   return (
@@ -16,7 +17,8 @@ const Sidebar: FC = (): ReactElement => {
       alignItems: 'center',
       flexDirection: 'column'
     }}>
-      <Profile name={'Ahmet'} />
+      <Profile />
+      <CreateTaskForm />
     </Grid>
   )
 }
