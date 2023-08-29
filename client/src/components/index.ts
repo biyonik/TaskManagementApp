@@ -5,3 +5,4 @@ export {default as Profile} from './profile/Profile.tsx';
 export {default as Sidebar} from './sidebar/Sidebar.tsx';
 export {default as TaskArea} from './task-area/TaskArea.tsx';
 export {default as TaskDateField} from './create-task-form/TaskDateField.tsx';
+export {default as TaskSelectField} from './create-task-form/TaskSelectField.tsx';
