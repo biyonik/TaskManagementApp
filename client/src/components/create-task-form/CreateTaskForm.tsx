@@ -1,7 +1,6 @@
 import { FC, ReactElement } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import TaskTitleField from './_task-title-field';
-import TaskDescriptionField from './_task-description-field.tsx';
+import { TaskDescriptionField, TaskTitleField, TaskDateField } from '../index.ts';
 
 const CreateTaskForm: FC = (): ReactElement => {
   return (
@@ -30,6 +29,7 @@ const CreateTaskForm: FC = (): ReactElement => {
       >
         <TaskTitleField />
         <TaskDescriptionField />
+        <TaskDateField />
       </Stack>
 
     </Box>
