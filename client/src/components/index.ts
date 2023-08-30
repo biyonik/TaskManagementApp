@@ -6,3 +6,8 @@ export {default as Sidebar} from './sidebar/Sidebar.tsx';
 export {default as TaskArea} from './task-area/TaskArea.tsx';
 export {default as TaskDateField} from './create-task-form/TaskDateField.tsx';
 export {default as TaskSelectField} from './create-task-form/TaskSelectField.tsx';
+export {default as TaskCounter} from './task-counter/TaskCounter.tsx';
+export {default as Task} from './task/Task.tsx';
+export {default as TaskHeader} from './task/TaskHeader.tsx';
+export {default as TaskDescription} from './task/TaskDescription.tsx';
+export {default as TaskFooter} from './task/TaskFooter.tsx';

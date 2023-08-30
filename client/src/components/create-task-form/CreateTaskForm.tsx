@@ -1,7 +1,6 @@
 import { FC, ReactElement } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 import { TaskDescriptionField, TaskTitleField, TaskDateField, TaskSelectField } from '../index.ts';
-
 import { ISelectFieldOption } from './interfaces/ISelectField.ts';
 import { Status } from './enums/status.ts';
 import { Priority } from './enums/priority.ts';
@@ -58,7 +57,6 @@ const CreateTaskForm: FC = (): ReactElement => {
           />
         </Stack>
       </Stack>
-
     </Box>
   )
 }
