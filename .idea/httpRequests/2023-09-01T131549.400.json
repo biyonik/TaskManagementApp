@@ -1,0 +1,17 @@
+{
+  "errors": [
+    {
+      "type": "field",
+      "msg": "Invalid value",
+      "path": "date",
+      "location": "body"
+    },
+    {
+      "type": "field",
+      "value": "",
+      "msg": "Date need to be a valid date",
+      "path": "date",
+      "location": "body"
+    }
+  ]
+}

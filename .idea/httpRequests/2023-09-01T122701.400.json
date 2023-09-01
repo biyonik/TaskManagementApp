@@ -1,0 +1,31 @@
+{
+  "errors": [
+    {
+      "type": "field",
+      "msg": "Invalid value",
+      "path": "date",
+      "location": "body"
+    },
+    {
+      "type": "field",
+      "value": "",
+      "msg": "Invalid value",
+      "path": "date",
+      "location": "body"
+    },
+    {
+      "type": "field",
+      "value": "",
+      "msg": "Date is required",
+      "path": "date",
+      "location": "body"
+    },
+    {
+      "type": "field",
+      "value": "bla bla",
+      "msg": "Priority can be low, normal or high",
+      "path": "priority",
+      "location": "body"
+    }
+  ]
+}

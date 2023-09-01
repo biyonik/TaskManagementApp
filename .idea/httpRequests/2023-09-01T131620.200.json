@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f6e6a5e9-1409-456a-891e-5c78148a0490",
+    "title": "Mololor sit amet",
+    "description": "Lorem ipsum dolor sit amet",
+    "date": "2023-09-01T03:10:26.210Z",
+    "status": "todo",
+    "priority": "normal"
+  },
+  {
+    "id": "6b14bcf6-ddce-4492-a69d-da5069ea7918",
+    "title": "My first task",
+    "description": "This is my first task",
+    "date": "2023-09-01T03:16:15.855Z",
+    "status": "todo",
+    "priority": "high"
+  },
+  {
+    "id": "d6d64f7c-43b4-48c6-9f5d-2dfaad26875c",
+    "title": "My second task",
+    "description": "This is my second task",
+    "date": "2023-09-01T10:16:11.751Z",
+    "status": "todo",
+    "priority": "low"
+  }
+]
