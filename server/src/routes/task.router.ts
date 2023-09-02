@@ -22,7 +22,7 @@ export class TaskRouter {
       return await this.taskController.create(requestObject, responseObject);
     });
 
-    router.put('/:id', updateValidator, async (requestObject: Request, responseObject: Response) => {
+    router.put('/', updateValidator, async (requestObject: Request, responseObject: Response) => {
       return await this.taskController.update(requestObject, responseObject);
     });
 

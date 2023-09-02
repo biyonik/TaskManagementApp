@@ -47,6 +47,8 @@ const Task: FC<ITask> = (props): ReactElement => {
       />
       {/* Task Footer */}
       <TaskFooter
+        id={id}
+        status={status}
         onClick={onClick}
         onStatusChange={onStatusChange}
       />

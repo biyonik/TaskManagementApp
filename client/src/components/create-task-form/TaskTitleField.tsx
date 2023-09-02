@@ -3,7 +3,7 @@ import { TextField } from '@mui/material';
 import { ITextField } from './interfaces/ITextField.ts';
 import PropTypes from 'prop-types';
 const TaskTitleField: FC<ITextField> = (props): ReactElement => {
-  const { onChange, disabled } = props;
+  const { onChange, disabled, inputRef } = props;
 
   return (
     <TextField
@@ -17,6 +17,7 @@ const TaskTitleField: FC<ITextField> = (props): ReactElement => {
       margin="normal"
       onChange={onChange}
       disabled={disabled}
+      inputRef={inputRef}
     />
   )
 }

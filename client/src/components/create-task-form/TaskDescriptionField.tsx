@@ -4,7 +4,7 @@ import { ITextField } from './interfaces/ITextField.ts';
 import PropTypes from 'prop-types';
 
 const TaskDescriptionField: FC<ITextField> = (props): ReactElement => {
-  const { onChange, disabled } = props;
+  const { onChange, disabled, inputRef } = props;
 
   return (
     <TextField
@@ -17,6 +17,7 @@ const TaskDescriptionField: FC<ITextField> = (props): ReactElement => {
       fullWidth
       disabled={disabled}
       onChange={onChange}
+      inputRef={inputRef}
     />
   );
 };

@@ -57,7 +57,8 @@ export class TaskController {
     if (!errors.isEmpty()) {
       return responseObject.status(400).json({ errors: errors.array() });
     }
-    const task = await this.taskService.update(requestObject.params.id, requestObject.body);
+    const { id } = requestObject.body;
+    const task = await this.taskService.update(id, requestObject.body);
     if (task) {
       return responseObject.status(200).json(task);
     } else {
